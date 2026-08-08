@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Generated reports
+reports/*.md
+reports/*.html
+reports/*.json
+!reports/.gitkeep
+
+# Dependencies
+node_modules/
+
+# MCP server artifacts (snapshots, traces, console logs)
+.playwright-mcp/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
